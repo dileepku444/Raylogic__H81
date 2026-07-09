@@ -1,0 +1,7 @@
+{
+  "name": "Raylogic H81 Dimmer",
+  "render_readme": true,
+  "content_in_root": false,
+  "domains": ["light"],
+  "homeassistant": "2023.1.0"
+}
