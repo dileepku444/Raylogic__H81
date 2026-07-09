@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Raylogic H81 Panel",
+        "description": "Enter the panel's IP address and Start Address (shown in the Raylogic GO app's Device Info screen, e.g. 0x0101). The 8 channels will be calculated automatically.",
+        "data": {
+          "ip": "IP Address",
+          "start_address": "Start Address (e.g. 0101 or 0x0101)",
+          "name": "Name (optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_start_address": "Could not read the start address. Use a value like 0101, 0x0101, or 257.",
+      "invalid_ip": "Please enter a valid IP address."
+    },
+    "abort": {
+      "already_configured": "This panel (IP + start address) is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Advanced settings",
+        "description": "Only change these if your panel uses non-default values (confirm with a Docklight capture).",
+        "data": {
+          "port": "Port",
+          "area": "Area (hex byte)",
+          "device_id": "Device ID (frame ID prefix)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "raylogic_h81",
+  "name": "Raylogic H81 Dimmer",
+  "version": "3.0.0",
+  "documentation": "https://github.com/homeautomationwithmee-crypto/Raylogic_H81",
+  "issue_tracker": "https://github.com/homeautomationwithmee-crypto/Raylogic_H81/issues",
+  "dependencies": [],
+  "codeowners": ["@homeautomationwithmee-crypto"],
+  "requirements": [],
+  "iot_class": "local_push",
+  "config_flow": true,
+  "integration_type": "hub"
+}
